@@ -2,8 +2,8 @@
 
   <p>
     <%= song.name %>
-    <%= Artist.find(song.artist_id).name %><br />
-    <%= Genre.find(song.genre_id).name %>
+    <%= link_to artist_path(Artist.find(song.artist_id)) Artist.find(song.artist_id).name %><br />
+    <%= link_to genre_path(Genre.find(song.genre_id)) Genre.find(song.genre_id).name %>
   </p>
 
 <% end %>
