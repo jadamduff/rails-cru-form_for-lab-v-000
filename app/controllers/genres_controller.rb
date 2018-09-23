@@ -8,10 +8,6 @@ class GenresController < ApplicationController
 
   end
 
-  def index
-
-  end
-
   def show
 
   end
@@ -23,5 +19,5 @@ class GenresController < ApplicationController
   def update
 
   end
-  
+
 end
