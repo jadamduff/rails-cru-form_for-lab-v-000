@@ -1,7 +1,9 @@
 <% @songs.each do |song| %>
 
-  <h1><%= song.name %></h1>
-  <%= Artist.find(song.artist_id).name %><br />
-  <%= Genre.find(song.genre_id).name %>
-  
+  <p>
+    <%= song.name %>
+    <%= Artist.find(song.artist_id).name %><br />
+    <%= Genre.find(song.genre_id).name %>
+  </p>
+
 <% end %>
