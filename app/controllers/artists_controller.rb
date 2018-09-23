@@ -8,10 +8,6 @@ class ArtistsController < ApplicationController
 
   end
 
-  def index
-
-  end
-
   def show
 
   end
